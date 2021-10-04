@@ -11,7 +11,7 @@ import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
-    const img = "http://www.nicdarkthemes.com/themes/education/html/demo/music/img/logos/logo-soundlab-color.svg";
+    // const img = "http://www.nicdarkthemes.com/themes/education/html/demo/music/img/logos/logo-soundlab-color.svg";
 
     
     const login = <FontAwesomeIcon icon={faUser} />
@@ -21,7 +21,10 @@ const Header = () => {
 
         <nav className="nav">
         <div>
-                <img style={{marginLeft: 80,marginRight:200, marginTop:10, height: 70, padding: 10}} src={img} alt="" />
+               <div style={{marginLeft: 80,marginRight:200, marginTop:10, height: 70, padding: 10}}>
+                   <h1 style={{fontSize: 40, margin: 0, color: 'white'}}>SOUND</h1>
+                   <span style={{color: 'white', marginLeft: 50, fontSize: 10}}>L A B O R A T O R Y</span>
+               </div>
             </div>
             <NavLink to="/home">HOME |</NavLink>
             <NavLink to="/services">SERVICES |</NavLink>
