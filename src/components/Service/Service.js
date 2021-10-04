@@ -8,8 +8,7 @@ const Service = (props) => {
     const {img, title, description, date, time} = props.service;
     return (
         <>
-       
-            <Col>
+        <Col>
         <Card style={{ width: '25rem', height: "40rem"}}>
         <Card.Img variant="top" src={img}/>
         <Card.Body>

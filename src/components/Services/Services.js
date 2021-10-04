@@ -13,9 +13,11 @@ const Services = () => {
     },[]);
     return (
         <div>
+            <Container>
             <h1 style={{fontSize: 50, color:"gray", padding: 5, margin: 0}}>Our More Courses</h1>
 
             <h2 style={{fontSize: 20, color:"gray",  padding: 5 , margin: 0}}>The Best In Our School</h2>
+            </Container>
 
 
             
