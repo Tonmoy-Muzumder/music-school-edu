@@ -14,14 +14,12 @@ function App() {
     <Router>
       <Header></Header>
        <Switch>
+         
         <Route exact path="/">
         </Route>
+
         <Route path="/home">
           <Home></Home>
-        </Route>
-
-        <Route path="/about">
-          <About></About>
         </Route>
 
         <Route path="/services">
@@ -30,6 +28,10 @@ function App() {
 
         <Route path="/teachers">
           <Teachers></Teachers>
+        </Route>
+
+        <Route path="/about">
+          <About></About>
         </Route>
 
         <Route path="*">

@@ -17,7 +17,7 @@ const Course = (props) => {
         <p style={{color: "gray", marginTop: 15}}><FontAwesomeIcon icon={faCalendarAlt} /> {date}</p>
         <p style={{color: "gray"}}><FontAwesomeIcon icon={faClock} /> {time}</p>
 
-        <button style={{backgroundColor: "gray",borderRadius: 10, color: "white",width: 150, margin: 25}}>Enroll with $ 100</button>
+        <button style={{backgroundColor: "gray",borderRadius: 10, color: "white",width: 150, marginLeft: 80, marginTop: 20}}>Enroll with $ 100</button>
         </Card.Text>
         </Card.Body>
          </Card>

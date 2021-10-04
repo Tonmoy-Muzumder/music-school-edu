@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Col, Card, Row} from 'react-bootstrap';
+import {Col, Card} from 'react-bootstrap';
 
 const Teacher = (props) => {
     const {img, name, teacher_of, description} = props.teacher;
@@ -15,7 +15,7 @@ const Teacher = (props) => {
         <Card.Text style={{color: "gray"}}>{description}
         
 
-        <button style={{backgroundColor: "goldenrod", marginTop: 20}}>View Profile</button>
+        <button style={{backgroundColor: "gray", marginTop: 20, borderRadius: 5, color: 'white'}}>View Profile</button>
         </Card.Text>
         </Card.Body>
          </Card>
