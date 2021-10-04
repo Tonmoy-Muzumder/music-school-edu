@@ -11,8 +11,6 @@ import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
-    // const img = "http://www.nicdarkthemes.com/themes/education/html/demo/music/img/logos/logo-soundlab-color.svg";
-
     
     const login = <FontAwesomeIcon icon={faUser} />
     const lock = <FontAwesomeIcon icon={faLock} />
