@@ -1,11 +1,14 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container} from 'react-bootstrap';
 
 const About = () => {
         const LoGo = "https://yt3.ggpht.com/ytc/AKedOLR39oeRIExPilreBmZwdTI-6MLeeC6tVO3O0p1b=s900-c-k-c0x00ffffff-no-rj"
 
     return (
-        <div className="d-flex">
-            <div style={{margin: 150, color: 'gray'}}>
+        <Container>
+            <div className="d-flex">
+            <div style={{marginTop: 200, color: 'gray'}}>
             <h1 style={{marginBottom: 20, fontSize: 40}}>Sound Laboratory Music School</h1>
             <p style={{fontSize: 15}}>This is Our music Learning Website. You can learn sing with instrument.Here have many Experienced Teachers. They are teach you full Course. so, you can Enroll in  our course. See our services menu and choose your course. GOOD LUCK!</p>
 
@@ -14,6 +17,7 @@ const About = () => {
 
             <img style={{height: 600, margin: 50}} src={LoGo} alt="" />
         </div>
+        </Container>
     );
 };
 
