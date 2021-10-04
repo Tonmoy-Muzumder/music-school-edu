@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import { BrowserRouter as Router, Route, Switch,  } from 'react-router-dom';
@@ -14,8 +13,9 @@ function App() {
     <Router>
       <Header></Header>
        <Switch>
-         
+
         <Route exact path="/">
+        <Home></Home>
         </Route>
 
         <Route path="/home">
