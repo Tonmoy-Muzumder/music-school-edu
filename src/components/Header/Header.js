@@ -2,7 +2,9 @@ import React from 'react';
 import "./Header.css"
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -10,6 +12,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
     const img = "http://www.nicdarkthemes.com/themes/education/html/demo/music/img/logos/logo-soundlab-color.svg";
+
+    
+    const login = <FontAwesomeIcon icon={faUser} />
+    const lock = <FontAwesomeIcon icon={faLock} />
     return (
         <div className="header-container">
 
@@ -21,6 +27,10 @@ const Header = () => {
             <NavLink to="/services">SERVICES |</NavLink>
             <NavLink to="/teachers">TEACHERS |</NavLink>
             <NavLink to="/about">ABOUT US |</NavLink>
+
+            <div style={{fontSize: 15, color: 'white', marginTop: 40}}>
+                {login} LOGIN | |  {lock} REGISTER
+            </div>
             
         </nav>
    </div>

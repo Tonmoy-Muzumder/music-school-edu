@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row} from 'react-bootstrap';
 
 
+
 const Home = () => {
     const [courses, setCourses] = useState([]);
 
